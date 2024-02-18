@@ -9,6 +9,7 @@ function Personaje ({image,nombre,logoNacion}){
             <div className="contenedor-logo">
                 <img src={logoNacion} className="logo-nacion"/> 
             </div>
+            <div className="sombreado-hover"></div>
         </div>
     )
 }
