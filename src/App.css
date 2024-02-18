@@ -1,38 +1,70 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+}
+
+.cartel-encabezado{
+  width: 100%;
+  height: 300px;
+}
+
+.logo-avatar{
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  margin:  auto 0px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.aire{
+  padding-top: 50px;
+  background-color: rgb(13, 176, 240);
+  width: 100%;
+  height: 700px; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fuego{
+  padding-top: 50px;
+  background-color: rgb(185, 16, 16);
+  width: 100%;
+  height: 700px; 
+}
+
+.agua{
+  padding-top: 50px;
+  background-color: rgb(6, 10, 238);
+  width: 100%;
+  height: 700px;
+}
+
+.tierra {
+  padding-top: 50px;
+  background-color: rgb(2, 97, 15);
+  width: 100%;
+  height: 700px;
+}
+h2{
+  font-size: 2rem;
+  font-style: italic;
+  color: white;
+  margin-left: 100px;
+}
+
+.contenedor-personajes{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
