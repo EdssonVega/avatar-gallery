@@ -58,6 +58,7 @@ function App() {
         <Personaje image={yangchen} nombre="yang chen" logoNacion={aire}/>
         </div>
       </div>
+      <img src={logoAvatar} className="prueba"/>
     </div>
     
   );
