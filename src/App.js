@@ -23,9 +23,8 @@ import kyoshi from "./components/images/kyoshi.PNG"
 function App() {
   return (
     <div className="App">
-      <figure className='cartel-encabezado'>
-        <img src={logoAvatar} className="logo-avatar" alt="logo Avatar"/>
-      </figure>
+      <div className='cartel-encabezado'>
+      </div>
       <h1>PERSONAJES</h1>
       <div className="agua">
         <h2>Tribu del agua:</h2>
@@ -60,6 +59,7 @@ function App() {
         </div>
       </div>
     </div>
+    
   );
 }
 
