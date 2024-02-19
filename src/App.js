@@ -48,7 +48,7 @@ function App() {
         <div className="contenedor-personajes">
         <Personaje image={zuko} nombre="zuko" logoNacion={fuego}/>
         <Personaje image={azula} nombre="azula" logoNacion={fuego}/>
-        <Personaje image={iroh} nombre="yang chen" logoNacion={fuego}/>
+        <Personaje image={iroh} nombre="iroh" logoNacion={fuego}/>
         </div>
       </div>
       <div className="aire">
@@ -59,7 +59,6 @@ function App() {
         <Personaje image={yangchen} nombre="yang chen" logoNacion={aire}/>
         </div>
       </div>
-      
     </div>
   );
 }
